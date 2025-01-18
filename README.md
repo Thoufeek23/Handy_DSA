@@ -5,7 +5,7 @@ Handy DSA is a repository designed to provide clean, basic implementations of es
 ## Table of Contents
 - [Data Structures](#data-structures)
   - Heaps
-  Updating soon!
+  - Updating soon!
 - [Algorithms](#algorithms)
   - Sorting Algorithms
       - Heap sort
@@ -15,7 +15,7 @@ Handy DSA is a repository designed to provide clean, basic implementations of es
   - Backtracking
   - Divide and Conquer
   - Graph Algorithms
-  Updating soon!
+  - Updating soon!
   
 ## Data Structures
 The following basic data structures are included:
