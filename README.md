@@ -12,6 +12,7 @@ Handy DSA is a repository designed to provide clean, basic implementations of es
     - Heap sort (Time Complexity: O(nlogn))
   - Searching Algorithms
     - Linear search (Time complexity: O(n))
+    - Binary Search (Time complexity: O(logn)=> Sorted array, O(nlogn)=> For unsorted array (sorting done by heap sort))
   - Dynamic Programming
   - Greedy Algorithms
   - Backtracking
