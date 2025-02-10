@@ -39,15 +39,15 @@ void disp(vector<int> arr)
 }
 int main()
 {
-    vector<int> arr = {4, 3, 5, 2, 1};
-    cout << "Array: " << endl;
+    vector<int> arr = {3, 2, 4, 1, 5};
+    cout << "Original array:" << endl;
     disp(arr);
     int n = arr.size();
     for (int i = (n / 2) - 1; i >= 0; i--)
     {
         heapify(arr, n, i);
     }
-    cout << "Heapified array: " << endl;
+    cout << "Heapified array:" << endl;
     disp(arr);
     heapsort(arr);
     cout << "Sorted array: " << endl;
