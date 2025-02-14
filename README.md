@@ -7,6 +7,7 @@ Handy DSA is a repository designed to provide clean, basic implementations of es
 - [Data Structures](#data-structures)
   - Heaps
   - Stack (Valid Paranthese problem = Time complexity => O(n)[To iterate through the given string])
+  - Singly Linked List
   - Updating soon!
 - [Algorithms](#algorithms)
   - Sorting Algorithms
