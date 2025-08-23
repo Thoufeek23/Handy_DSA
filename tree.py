@@ -37,6 +37,30 @@ class node(object):
         helper(root)
         return ans
     
+    def bfs(self, root):
+        if not root:
+            return
+        
+        queue = [root]
+        result = []
+
+        while queue:
+            level = []
+            next_queue = []
+
+            for node in queue:
+                level.append(node.val)
+                if node.left:
+                    next_queue.append(node.left)
+                if node.right:
+                    next_queue.append(node.right)
+            
+            result.append(level)
+            queue = next_queue
+        
+        return result
+
+    
 root = node(4)
 root.left = node(2)
 root.right = node(6)
@@ -48,3 +72,4 @@ root.right.right = node(7)
 print("Inorder Traversal :", root.inorder(root))
 print("Preorder Traversal :", root.prorder(root))
 print("Postorder Traversal :", root.postorder(root))
+print("BFS :", root.bfs(root))
