@@ -82,3 +82,15 @@ nums = [1, 2, 3, 4]
 ans = comb(nums, 2)
 print("List combination: ", ans)
 
+#Create a Hashtable
+def hash_table(nums):
+    h = {}
+    for val in nums:
+        if val in h:
+            h[val] += 1
+        else:
+            h[val] = 1
+    return h
+
+nums = [1, 1, 1, 2, 2, 2, 2 ,2 ,2, 3, 3 ,3, 4, 5, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+print("Hash Table: ", hash_table(nums))
